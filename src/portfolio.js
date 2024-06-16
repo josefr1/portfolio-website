@@ -151,7 +151,7 @@ display: true, // Set false to hide this section, defaults to true
 schools: [
   {
     schoolName: "University of California, Berkeley",
-    logo: require("./assets/images/berkeleylogo1.png"),
+    logo: require("./assets/images/berkeleylogo.png"),
     subHeader: "Bachelors of Arts in Data Science", 
     duration: "August 2020 - May 2024",
     desc: "",
