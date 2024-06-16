@@ -23,7 +23,7 @@ const greeting = {
   username: "Jose Fernandez-Rocha",
   title: "Hello!, I'm Jose",
   subTitle: emoji(
-    "A passionate, hard working software developer having experience building applications, software, and LLM's with JavaScript / Reactjs / Nodejs / Python and other frameworks."
+    "A very passionate, hard working software developer having experience building applications, software, and LLM's with JavaScript / Reactjs / Nodejs / Python and other frameworks."
   ),
   resumeLink:
   "./assets/images/resume_jose_fernandezrocha.pdf", // Set to empty to hide the button
@@ -41,6 +41,7 @@ const socialMediaLinks = {
   display: true // Set true to display this section, defaults to false
 };
 
+
 // Skills Section
 
 const skillsSection = {
@@ -56,131 +57,131 @@ const skillsSection = {
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    /*
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    }, 
-    **/
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    /*
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    **/
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "mongoDB",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "pytorch",
-      fontAwesomeClassname: "fas fa-microchip"
-    },
-    {
-      skillName: "tensorflow",
-      fontAwesomeClassname: "fas fa-microchip"
-    },
-    {
-      skillName: "java",
-      fontAwesomeClassname: "fab fa-java"
-    },
-    {
-      skillName: "C#",
-      fontAwesomeClassname: "fas fa-gear"
-    },
-    /*
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    **/
-   
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    }
-    /*
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
-    **/
-  ],
-  display: true // Set false to hide this section, defaults to true
+softwareSkills: [
+  {
+    skillName: "html-5",
+    fontAwesomeClassname: "fab fa-html5"
+  },
+  {
+    skillName: "css3",
+    fontAwesomeClassname: "fab fa-css3-alt"
+  },
+  {
+    skillName: "sass",
+    fontAwesomeClassname: "fab fa-sass"
+  },
+  {
+    skillName: "JavaScript",
+    fontAwesomeClassname: "fab fa-js"
+  },
+  {
+    skillName: "reactjs",
+    fontAwesomeClassname: "fab fa-react"
+  },
+  /*
+  {
+    skillName: "nodejs",
+    fontAwesomeClassname: "fab fa-node"
+  }, 
+  **/
+  {
+    skillName: "swift",
+    fontAwesomeClassname: "fab fa-swift"
+  },
+  /*
+  {
+    skillName: "npm",
+    fontAwesomeClassname: "fab fa-npm"
+  },
+  **/
+  {
+    skillName: "sql-database",
+    fontAwesomeClassname: "fas fa-database"
+  },
+  {
+    skillName: "mongoDB",
+    fontAwesomeClassname: "fas fa-database"
+  },
+  {
+    skillName: "pytorch",
+    fontAwesomeClassname: "fas fa-microchip"
+  },
+  {
+    skillName: "tensorflow",
+    fontAwesomeClassname: "fas fa-microchip"
+  },
+  {
+    skillName: "java",
+    fontAwesomeClassname: "fab fa-java"
+  },
+  {
+    skillName: "C#",
+    fontAwesomeClassname: "fas fa-microchip"
+  },
+  /*
+  {
+    skillName: "aws",
+    fontAwesomeClassname: "fab fa-aws"
+  },
+  
+  {
+    skillName: "firebase",
+    fontAwesomeClassname: "fas fa-fire"
+  },
+  **/
+ 
+  {
+    skillName: "python",
+    fontAwesomeClassname: "fab fa-python"
+  }
+  /*
+  {
+    skillName: "docker",
+    fontAwesomeClassname: "fab fa-docker"
+  }
+  **/
+],
+display: true // Set false to hide this section, defaults to true
 };
 
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
-  schools: [
-    {
-      schoolName: "University of California, Berkeley",
-      logo: require("./assets/images/berkeleylogo.png"),
-      subHeader: "Bachelors of Arts in Data Science", 
-      duration: "August 2020 - May 2024",
-      desc: "",
-      descBullets: [
-        "took 28 units(7 courses) of Electrical Engineering & Computer Science(EECS) minor",
-        "involved with ANova, a nonprofit tech club, for 2 years where I held multiple leadership positions."
-      ]
-    }
-  ]
+display: true, // Set false to hide this section, defaults to true
+schools: [
+  {
+    schoolName: "University of California, Berkeley",
+    logo: require("./assets/images/berkeleylogo1.png"),
+    subHeader: "Bachelors of Arts in Data Science", 
+    duration: "August 2020 - May 2024",
+    desc: "",
+    descBullets: [
+      "took 28 units(7 courses) of Electrical Engineering & Computer Science(EECS) minor",
+      "involved with ANova, a nonprofit tech club, for 2 years where I held multiple leadership positions."
+    ]
+  }
+]
 };
 
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
-  experience: [
-    {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "60%" //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Machine Learning & Artificial Intelligence",
-      progressPercentage: "70%"
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "80%"
-    }
-  ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+viewSkillBars: true, //Set it to true to show Proficiency Section
+experience: [
+  {
+    Stack: "Frontend/Design", //Insert stack or technology you have experience in
+    progressPercentage: "60%" //Insert relative proficiency in percentage
+  },
+  {
+    Stack: "Machine Learning & Artificial Intelligence",
+    progressPercentage: "70%"
+  },
+  {
+    Stack: "Programming",
+    progressPercentage: "80%"
+  }
+],
+displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -279,6 +280,62 @@ const achievementSection = {
   display: false // Set false to hide this section, defaults to true
 };
 
+// Blogs Section
+
+const blogSection = {
+  title: "Blogs",
+  subtitle:
+    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  blogs: [
+    {
+      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      description:
+        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+    },
+    {
+      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+      title: "Why REACT is The Best?",
+      description:
+        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+    }
+  ],
+  display: false // Set false to hide this section, defaults to true
+};
+
+// Talks Sections
+
+const talkSection = {
+  title: "TALKS",
+  subtitle: emoji(
+    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+  ),
+
+  talks: [
+    {
+      title: "Build Actions For Google Assistant",
+      subtitle: "Codelab at GDG DevFest Karachi 2019",
+      slides_url: "https://bit.ly/saadpasta-slides",
+      event_url: "https://www.facebook.com/events/2339906106275053/"
+    }
+  ],
+  display: false // Set false to hide this section, defaults to true
+};
+
+// Podcast Section
+
+const podcastSection = {
+  title: emoji("Podcast 🎙️"),
+  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+
+  // Please Provide with Your Podcast embeded Link
+  podcast: [
+    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+  ],
+  display: false // Set false to hide this section, defaults to true
+};
+
 // Resume Section
 const resumeSection = {
   title: "Resume",
@@ -291,7 +348,7 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "For job opportunities or roles",
+    "For job opportunities, roles or to get in touch",
   number: "+1 760-812-9125",
   email_address: "jfernandezrocha105@gmail.com"
 };
