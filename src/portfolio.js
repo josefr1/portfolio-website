@@ -230,7 +230,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/spotify.wedp"),
+      image: require("./assets/images/spotify.png"),
       projectName: "Spotify User Sentiment Analysis(Data144)",
       projectDesc: "Conducted decision tree analysis, exploring user features' impact on premium subscription, proposing actionable recommendations based on validated findings compared with K-Means clustering results.",
       footerLink: [
@@ -242,7 +242,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/digit_classifier.wedp"),
+      image: require("./assets/images/digit_classifier.png"),
       projectName: "Digit Neural Net Classifier(CS188)",
       projectDesc: "Developed a neural network for digit classification, handling variable-length inputs, including a Language Identification model with recurrent neural network architecture.",
       footerLink: [
@@ -254,7 +254,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/neural_net.jpeg"),
+      image: require("./assets/images/neural_net.png"),
       projectName: "Neural Network Architecture & Analysis(CS189)",
       projectDesc: "Created the forward and backward propagation functions for multiple neural networks like sigmoid, reLU, SoftMax, etc... while analyzing efficiency.",
       footerLink: [
