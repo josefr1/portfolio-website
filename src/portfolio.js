@@ -208,14 +208,14 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "Notable projects from startups, companies and university courses that I have worked on",
+  title: "Projects",
+  subtitle: "Projects from startups, university courses and personal creations that I have worked on",
   projects: [
     {
       image: require("./assets/images/soothLogo.png"),
@@ -225,6 +225,42 @@ const bigProjects = {
         {
           name: "Website for more information",
           url: "http://sooth.fyi/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/spotify.wedp"),
+      projectName: "Spotify User Sentiment Analysis(Data144)",
+      projectDesc: "Conducted decision tree analysis, exploring user features' impact on premium subscription, proposing actionable recommendations based on validated findings compared with K-Means clustering results.",
+      footerLink: [
+        {
+          name: "github link to project",
+          url: "https://github.com/josefr1/Data144/blob/main/%5Bdecision_trees%5DSpotify_Project.ipynb"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/digit_classifier.wedp"),
+      projectName: "Digit Neural Net Classifier(CS188)",
+      projectDesc: "Developed a neural network for digit classification, handling variable-length inputs, including a Language Identification model with recurrent neural network architecture.",
+      footerLink: [
+        {
+          name: "github link to project",
+          url: "https://github.com/josefr1/CS188/tree/main/machinelearning"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/neural_net.jpeg"),
+      projectName: "Neural Network Architecture & Analysis(CS189)",
+      projectDesc: "Created the forward and backward propagation functions for multiple neural networks like sigmoid, reLU, SoftMax, etc... while analyzing efficiency.",
+      footerLink: [
+        {
+          name: "github link to project",
+          url: "https://github.com/josefr1/CS189/tree/main/hw6"
         }
         //  you can add extra buttons here.
       ]
