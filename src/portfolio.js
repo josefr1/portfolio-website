@@ -123,12 +123,11 @@ softwareSkills: [
     skillName: "aws",
     fontAwesomeClassname: "fab fa-aws"
   },
-  
+  **/
   {
     skillName: "firebase",
     fontAwesomeClassname: "fas fa-fire"
   },
-  **/
  
   {
     skillName: "python",
@@ -166,7 +165,7 @@ schools: [
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-viewSkillBars: true, //Set it to true to show Proficiency Section
+viewSkillBars: false, //Set it to true to show Proficiency Section
 experience: [
   {
     Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -208,7 +207,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -249,6 +248,18 @@ const bigProjects = {
         {
           name: "github link to project",
           url: "https://github.com/josefr1/CS188/tree/main/machinelearning"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/expense_tracker.png"),
+      projectName: "Expense Tracker",
+      projectDesc: "Developed an expense tracker that keeps user login information to display balance from expenses and income. Built on reactJS & firebase.",
+      footerLink: [
+        {
+          name: "github link to project",
+          url: "https://github.com/josefr1/expense-tracker"
         }
         //  you can add extra buttons here.
       ]
