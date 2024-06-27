@@ -165,19 +165,19 @@ schools: [
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-viewSkillBars: false, //Set it to true to show Proficiency Section
+viewSkillBars: true, //Set it to true to show Proficiency Section
 experience: [
   {
     Stack: "Frontend/Design", //Insert stack or technology you have experience in
-    progressPercentage: "60%" //Insert relative proficiency in percentage
+    //progressPercentage: "60%" //Insert relative proficiency in percentage
   },
   {
     Stack: "Machine Learning & Artificial Intelligence",
-    progressPercentage: "70%"
+    //progressPercentage: "70%"
   },
   {
     Stack: "Programming",
-    progressPercentage: "80%"
+    //progressPercentage: "80%"
   }
 ],
 displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
