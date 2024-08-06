@@ -118,6 +118,10 @@ softwareSkills: [
     skillName: "C#",
     fontAwesomeClassname: "fas fa-microchip"
   },
+  {
+    skillName: "typescript",
+    fontAwesomeClassname: "fab fa-react"
+  },
   /*
   {
     skillName: "aws",
@@ -166,15 +170,15 @@ schools: [
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-viewSkillBars: true, //Set it to true to show Proficiency Section
+viewSkillBars: false, //Set it to true to show Proficiency Section
 experience: [
   {
-    Stack: "Frontend/Design", //Insert stack or technology you have experience in
-    progressPercentage: "60%" //Insert relative proficiency in percentage
+    Stack: "Frontend/Design", 
+    progressPercentage: "60%" 
   },
   {
     Stack: "Machine Learning & Artificial Intelligence",
-    progressPercentage: "70%"
+    progressPercentage: "80%"
   },
   {
     Stack: "Programming",
@@ -200,7 +204,31 @@ const workExperiences = {
         "Collaborated cross-functionally, employing C# and API for seamless integration."
       ]
     }
-  ]
+  ], experience: [
+    {
+      role: "ML Engineering Intern",
+      company: "Sooth.fyi",
+      companylogo: require("./assets/images/soothLogo.png"),
+      date: "May 2024 – Present",
+      desc: "",
+      descBullets: [
+        "Created an LLM model using the HuggingFace libary, pytorch & NLP that outputs an articles media bias rating",
+        "Developed a semantic search algorithm to match articles across different media bias categories, enhancing user access to diverse perspectives",
+        "Designed a pipeline for producing daily and weekly news summaries, including data collection, topic categorization, and summary generation, optimizing the presentation of news across various topics"
+      ]
+    }
+  ], experience: [
+    {
+      role: "Founding Game Developer",
+      company: "Multiplur",
+      companylogo: require("./assets/images/multiplur.png"),
+      date: "June 2024 – Present",
+      desc: "",
+      descBullets: [
+        "Developed and optimized web & mobile Phaser 3 games, integrating Multiplur’s AI for game state management, design, sprite handling, and user interface enhancements across devices",
+      ]
+    }
+  ], 
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
@@ -217,18 +245,6 @@ const bigProjects = {
   title: "Projects",
   subtitle: "Projects from startups, university courses and personal creations that I have worked on",
   projects: [
-    {
-      image: require("./assets/images/soothLogo.png"),
-      projectName: "Sooth.fyi",
-      projectDesc: "Created an LLM model using the Huggingface libary, pytorch & NLP that outputs an articles media bias rating",
-      footerLink: [
-        {
-          name: "Website for more information",
-          url: "http://sooth.fyi/"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
     {
       image: require("./assets/images/spotify.png"),
       projectName: "Spotify User Sentiment Analysis(Data144)",
