@@ -226,12 +226,6 @@ const workExperiences = {
       descBullets: [
         "Developed and optimized web & mobile Phaser 3 games, integrating Multiplur’s AI for game state management, design, sprite handling, and user interface enhancements across devices",
       ],
-      footerLink: [
-        {
-          name: "Company Website",
-          url: "https://www.nftopica.com"
-        }
-      ]
     }
   ], 
 };

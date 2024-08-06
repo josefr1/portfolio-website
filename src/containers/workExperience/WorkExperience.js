@@ -7,15 +7,6 @@ import StyleContext from "../../contexts/StyleContext";
 
 export default function WorkExperience() {
   const {isDark} = useContext(StyleContext);
-
-  function openUrlInNewTab(url) {
-    if (!url) {
-      return;
-    }
-    var win = window.open(url, "_blank");
-    win.focus();
-  }
-
   if (workExperiences.display) {
     return (
       <div id="experience">
@@ -26,32 +17,18 @@ export default function WorkExperience() {
               <div className="experience-cards-div">
                 {workExperiences.experience.map((card, i) => {
                   return (
-                    <div key={i} className={isDark ? "dark-mode experience-card" : "experience-card"}>
-                      <ExperienceCard
-                        isDark={isDark}
-                        cardInfo={{
-                          company: card.company,
-                          desc: card.desc,
-                          date: card.date,
-                          companylogo: card.companylogo,
-                          role: card.role,
-                          descBullets: card.descBullets,
-                        }}
-                      />
-                      {card.footerLink && (
-                        <div className="experience-card-footer">
-                          {card.footerLink.map((link, i) => (
-                            <span
-                              key={i}
-                              className={isDark ? "dark-mode experience-card-tag" : "experience-card-tag"}
-                              onClick={() => openUrlInNewTab(link.url)}
-                            >
-                              {link.name}
-                            </span>
-                          ))}
-                        </div>
-                      )}
-                    </div>
+                    <ExperienceCard
+                      key={i}
+                      isDark={isDark}
+                      cardInfo={{
+                        company: card.company,
+                        desc: card.desc,
+                        date: card.date,
+                        companylogo: card.companylogo,
+                        role: card.role,
+                        descBullets: card.descBullets
+                      }}
+                    />
                   );
                 })}
               </div>
