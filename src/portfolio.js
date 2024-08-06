@@ -203,8 +203,7 @@ const workExperiences = {
         "Developed a Microsoft Project add-in with over 20 functions, boosting project efficiency by 50% through exclusive features.",
         "Collaborated cross-functionally, employing C# and API for seamless integration."
       ]
-    }
-  ], experience: [
+    },
     {
       role: "ML Engineering Intern",
       company: "Sooth.fyi",
@@ -216,8 +215,8 @@ const workExperiences = {
         "Developed a semantic search algorithm to match articles across different media bias categories, enhancing user access to diverse perspectives",
         "Designed a pipeline for producing daily and weekly news summaries, including data collection, topic categorization, and summary generation, optimizing the presentation of news across various topics"
       ]
-    }
-  ], experience: [
+    },
+  
     {
       role: "Founding Game Developer",
       company: "Multiplur",
