@@ -123,11 +123,12 @@ softwareSkills: [
     skillName: "aws",
     fontAwesomeClassname: "fab fa-aws"
   },
-  **/
+  
   {
     skillName: "firebase",
     fontAwesomeClassname: "fas fa-fire"
   },
+  **/
  
   {
     skillName: "python",
@@ -169,15 +170,15 @@ viewSkillBars: true, //Set it to true to show Proficiency Section
 experience: [
   {
     Stack: "Frontend/Design", //Insert stack or technology you have experience in
-    //progressPercentage: "60%" //Insert relative proficiency in percentage
+    progressPercentage: "60%" //Insert relative proficiency in percentage
   },
   {
     Stack: "Machine Learning & Artificial Intelligence",
-    //progressPercentage: "70%"
+    progressPercentage: "70%"
   },
   {
     Stack: "Programming",
-    //progressPercentage: "80%"
+    progressPercentage: "80%"
   }
 ],
 displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -248,18 +249,6 @@ const bigProjects = {
         {
           name: "github link to project",
           url: "https://github.com/josefr1/CS188/tree/main/machinelearning"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/expense_tracker.png"),
-      projectName: "Expense Tracker",
-      projectDesc: "Developed an expense tracker that keeps user login information to display balance from expenses and income. Built on reactJS & firebase.",
-      footerLink: [
-        {
-          name: "github link to project",
-          url: "https://github.com/josefr1/expense-tracker"
         }
         //  you can add extra buttons here.
       ]
