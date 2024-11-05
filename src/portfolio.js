@@ -127,12 +127,11 @@ softwareSkills: [
     skillName: "aws",
     fontAwesomeClassname: "fab fa-aws"
   },
-  
+  **/
   {
     skillName: "firebase",
     fontAwesomeClassname: "fas fa-fire"
   },
-  **/
  
   {
     skillName: "python",
@@ -168,7 +167,7 @@ schools: [
 };
 
 // Your top 3 proficient stacks/tech experience
-
+//Currently Hidden
 const techStack = {
 viewSkillBars: false, //Set it to true to show Proficiency Section
 experience: [
@@ -218,13 +217,15 @@ const workExperiences = {
     },
   
     {
-      role: "Founding Game Developer",
+      role: "Founding Engineer",
       company: "Multiplur",
       companylogo: require("./assets/images/multiplur.png"),
       date: "June 2024 – Present",
       desc: "",
       descBullets: [
         "Developed and optimized web & mobile Phaser 3 games, integrating Multiplur’s AI for game state management, design, sprite handling, and user interface enhancements across devices",
+        "Built a customized Text-to-Speech (TTS) pipeline, including development and hyperparameter fine-tuning, enabling high-quality voice synthesis across multilingual inputs for immersive user experiences",
+        "Created a username generator model by concatenating datasets from platforms like Twitter, Reddit, and other sources to ensure a diverse and engaging range of generated usernames."
       ],
     }
   ], 
@@ -238,7 +239,6 @@ const openSource = {
   display: false // Set false to hide this section, defaults to true
 };
 
-// Some big projects you have worked on
 
 const bigProjects = {
   title: "Projects",
