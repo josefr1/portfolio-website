@@ -219,7 +219,7 @@ const workExperiences = {
     {
       role: "Founding Engineer",
       company: "Multiplur",
-      companylogo: require("./assets/images/multiplur.png"),
+      companylogo: require("./assets/images/gameloop.png"),
       date: "June 2024 – Present",
       desc: "",
       descBullets: [
