@@ -193,17 +193,6 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineering Intern",
-      company: "SMA Inc.",
-      companylogo: require("./assets/images/smaLogo.png"),
-      date: "June 2021 – August 2021",
-      desc: "",
-      descBullets: [
-        "Developed a Microsoft Project add-in with over 20 functions, boosting project efficiency by 50% through exclusive features.",
-        "Collaborated cross-functionally, employing C# and API for seamless integration."
-      ]
-    },
-    {
       role: "ML Engineering Intern",
       company: "Sooth.fyi",
       companylogo: require("./assets/images/soothLogo.png"),
@@ -220,13 +209,24 @@ const workExperiences = {
       role: "Founding Engineer",
       company: "Multiplur",
       companylogo: require("./assets/images/gameloop.png"),
-      date: "June 2024 – Present",
+      date: "June 2024 – December 2024",
       desc: "",
       descBullets: [
         "Developed and optimized web & mobile Phaser 3 games, integrating Multiplur’s AI for game state management, design, sprite handling, and user interface enhancements across devices",
         "Built a customized Text-to-Speech (TTS) pipeline, including development and hyperparameter fine-tuning, enabling high-quality voice synthesis across multilingual inputs for immersive user experiences",
         "Created a username generator model by concatenating datasets from platforms like Twitter, Reddit, and other sources to ensure a diverse and engaging range of generated usernames."
       ],
+    },
+    {
+      role: "Software Engineering Intern",
+      company: "SMA Inc.",
+      companylogo: require("./assets/images/smaLogo.png"),
+      date: "June 2021 – August 2021",
+      desc: "",
+      descBullets: [
+        "Developed a Microsoft Project add-in with over 20 functions, boosting project efficiency by 50% through exclusive features.",
+        "Collaborated cross-functionally, employing C# and API for seamless integration."
+      ]
     }
   ], 
 };
@@ -244,6 +244,18 @@ const bigProjects = {
   title: "Projects",
   subtitle: "Projects from startups, university courses and personal creations that I have worked on",
   projects: [
+    {
+      image: require("./assets/images/podcast_model.png"),
+      projectName: "Podcast AI Model",
+      projectDesc: "Created a podcast model using DeepSeek for text generation and Koroko for text-to-speech that outputs an audio file of a 2 person conversational podcast.",
+      footerLink: [
+        {
+          name: "github link to project",
+          url: "https://github.com/josefr1/podcast_model"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
     {
       image: require("./assets/images/spotify.png"),
       projectName: "Spotify User Sentiment Analysis(Data144)",
