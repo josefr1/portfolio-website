@@ -209,7 +209,7 @@ const workExperiences = {
       role: "Founding Engineer",
       company: "Multiplur",
       companylogo: require("./assets/images/gameloop.png"),
-      date: "June 2024 – December 2024",
+      date: "June 2024 – Present",
       desc: "",
       descBullets: [
         "Developed and optimized web & mobile Phaser 3 games, integrating Multiplur’s AI for game state management, design, sprite handling, and user interface enhancements across devices",
