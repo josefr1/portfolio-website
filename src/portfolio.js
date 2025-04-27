@@ -214,7 +214,8 @@ const workExperiences = {
       descBullets: [
         "Developed and optimized web & mobile Phaser 3 games, integrating Multiplur’s AI for game state management, design, sprite handling, and user interface enhancements across devices",
         "Built a customized Text-to-Speech (TTS) pipeline, including development and hyperparameter fine-tuning, enabling high-quality voice synthesis across multilingual inputs for immersive user experiences",
-        "Created a username generator model by concatenating datasets from platforms like Twitter, Reddit, and other sources to ensure a diverse and engaging range of generated usernames."
+        "Created a username generator model by concatenating datasets from platforms like Twitter, Reddit, and other sources to ensure a diverse and engaging range of generated usernames.",
+        "Built a multimodal content pipeline that generates dynamic game-related chat and comment responses, powered by prompt engineering for style, tone, and contextual control."
       ],
     },
     {
@@ -252,6 +253,30 @@ const bigProjects = {
         {
           name: "github link to project",
           url: "https://github.com/josefr1/podcast_model"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/text_generation.png"),
+      projectName: "Message Generation Model",
+      projectDesc: "Built a responsive text generation pipeline capable of producing human-like chat messages with configurable personality styles, contextual awareness, and enforced output formatting using Llama 3.2-3B-Instruct and prompt engineering.",
+      footerLink: [
+        {
+          name: "github link to project",
+          url: "https://github.com/josefr1/message_generation_model"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/image_model.png"),
+      projectName: "Comment Generation Model",
+      projectDesc: "Developed a multimodal content generation pipeline integrating image captioning (BLIP) and language modeling (Llama 3.2-3B-Instruct) to automatically generate natural, human-like social media comments using prompt engineering & contextual awareness",
+      footerLink: [
+        {
+          name: "github link to project",
+          url: "https://github.com/josefr1/comment_generation_model"
         }
         //  you can add extra buttons here.
       ]
