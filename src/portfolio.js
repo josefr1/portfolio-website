@@ -23,7 +23,7 @@ const greeting = {
   username: "Jose Fernandez-Rocha",
   title: "Hello! I'm Jose",
   subTitle: emoji(
-    "A very passionate, hard working software developer having experience building applications, software, and LLM's with JavaScript / Reactjs / Nodejs / Python and other frameworks."
+    "A highly passionate and results-driven ML Engineer with a strong background in building innovative applications, large language models (LLMs), and machine learning solutions. My expertise spans across various technologies, libraries, and frameworks, with a focus on delivering robust and user-centric systems."
   ),
   resumeLink:
   "./assets/images/resume_jose_fernandezrocha.pdf", // Set to empty to hide the button
@@ -48,10 +48,9 @@ const skillsSection = {
   title: "Skills",
   subTitle: "My skills and expertice in various different technologies, libaries & frameworks",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive and user-friendly web and mobile applications using a variety of API's"
-    ),
-    emoji("⚡ Build LLM's and machine learning models for sentiment analysis, classification, recommendation systems, etc...")
+    emoji("⚡ Engineered and deployed end-to-end machine learning and large language model (LLM) solutions for diverse applications."),
+    emoji("⚡ Developed and integrated advanced AI capabilities into robust web and mobile applications, enhancing user experiences."),
+    emoji("⚡ Designed and implemented scalable data processing pipelines and CI/CD workflows, ensuring efficient data management and automated deployment.")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -78,22 +77,18 @@ softwareSkills: [
     skillName: "reactjs",
     fontAwesomeClassname: "fab fa-react"
   },
-  /*
   {
     skillName: "nodejs",
     fontAwesomeClassname: "fab fa-node"
   }, 
-  **/
   {
     skillName: "swift",
     fontAwesomeClassname: "fab fa-swift"
   },
-  /*
   {
     skillName: "npm",
     fontAwesomeClassname: "fab fa-npm"
   },
-  **/
   {
     skillName: "sql-database",
     fontAwesomeClassname: "fas fa-database"
@@ -136,13 +131,11 @@ softwareSkills: [
   {
     skillName: "python",
     fontAwesomeClassname: "fab fa-python"
-  }
-  /*
+  },
   {
     skillName: "docker",
     fontAwesomeClassname: "fab fa-docker"
   }
-  **/
 ],
 display: true // Set false to hide this section, defaults to true
 };
@@ -172,15 +165,15 @@ const techStack = {
 viewSkillBars: false, //Set it to true to show Proficiency Section
 experience: [
   {
-    Stack: "Frontend/Design", 
+    Stack: "Frontend Design", 
     progressPercentage: "60%" 
   },
   {
     Stack: "Machine Learning & Artificial Intelligence",
-    progressPercentage: "80%"
+    progressPercentage: "95%"
   },
   {
-    Stack: "Programming",
+    Stack: "Software Engineering",
     progressPercentage: "80%"
   }
 ],
@@ -213,10 +206,10 @@ const workExperiences = {
       date: "June 2024 – Present",
       desc: "",
       descBullets: [
-        "Developed and optimized web & mobile Phaser 3 games, integrating Multiplur’s AI for game state management, design, sprite handling, and user interface enhancements across devices",
-        "Built a customized Text-to-Speech (TTS) pipeline, including development and hyperparameter fine-tuning, enabling high-quality voice synthesis across multilingual inputs for immersive user experiences",
-        "Created a username generator model by concatenating datasets from platforms like Twitter, Reddit, and other sources to ensure a diverse and engaging range of generated usernames.",
-        "Built a multimodal content pipeline that generates dynamic game-related chat and comment responses, powered by prompt engineering for style, tone, and contextual control."
+        "Built a customized TTS pipeline with end-to-end development and hyperparameter tuning for high-quality, multilingual in-game narration and chat.",
+        "Developed a username-generation model by merging datasets from Twitter, Reddit, and other sources to produce diverse, gamer-friendly handles.",
+        "Engineered a suite of mobile games by integrating AI-generated sprites (via ControlNet and FLUX) into core templates and implemented a multimodal content pipeline for dynamic, context-aware in-game chat and comments.",
+        "Designed front-end components (avatar customization UI, scrollable game feed with title, description, live leaderboard, comments, 5-star reviews, sorting and implemented back-end APIs for persistent storage and retrieval of user metadata."
       ],
     },
     {
