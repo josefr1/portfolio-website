@@ -193,7 +193,7 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "ML Engineering Intern",
+      role: "ML Engineer",
       company: "Sooth.fyi",
       companylogo: require("./assets/images/soothLogo.png"),
       date: "May 2024 – Present",
@@ -201,7 +201,8 @@ const workExperiences = {
       descBullets: [
         "Created an LLM model using the HuggingFace libary, pytorch & NLP that outputs an articles media bias rating",
         "Developed a semantic search algorithm to match articles across different media bias categories, enhancing user access to diverse perspectives",
-        "Designed a pipeline for producing daily and weekly news summaries, including data collection, topic categorization, and summary generation, optimizing the presentation of news across various topics"
+        "Designed a pipeline for producing daily and weekly news summaries, including data collection, topic categorization, and summary generation, optimizing the presentation of news across various topics",
+        "Built a user search topic classification pipeline using HDBSCAN for clustering, c-TF-IDF for keyword extraction, and zero-shot models exposed via a REST API to categorize searches into topics and subtopics."
       ]
     },
   
