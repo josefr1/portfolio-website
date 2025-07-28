@@ -192,9 +192,9 @@ const workExperiences = {
       date: "May 2024 – Present",
       desc: "",
       descBullets: [
-        "Created an LLM model using the HuggingFace libary, pytorch & NLP that outputs an articles media bias rating",
-        "Developed a semantic search algorithm to match articles across different media bias categories, enhancing user access to diverse perspectives",
-        "Designed a pipeline for producing daily and weekly news summaries, including data collection, topic categorization, and summary generation, optimizing the presentation of news across various topics",
+        "Created an LLM model using the HuggingFace libary, pytorch & NLP that outputs an articles media bias rating.",
+        "Developed a semantic search algorithm to match articles across different media bias categories, enhancing user access to diverse perspectives.",
+        "Designed a pipeline for producing daily and weekly news summaries, including data collection, topic categorization, and summary generation, optimizing the presentation of news across various topics.",
         "Built a user search topic classification pipeline using HDBSCAN for clustering, c-TF-IDF for keyword extraction, and zero-shot models exposed via a REST API to categorize searches into topics and subtopics."
       ]
     },
