@@ -201,7 +201,7 @@ const workExperiences = {
   
     {
       role: "Founding Engineer",
-      company: "Multiplur",
+      company: "Gameloop.io",
       companylogo: require("./assets/images/gameloop.png"),
       date: "June 2024 – Present",
       desc: "",
