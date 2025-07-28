@@ -219,8 +219,8 @@ const workExperiences = {
       date: "June 2021 – August 2021",
       desc: "",
       descBullets: [
-        "Developed a Microsoft Project add-in with over 20 functions, boosting project efficiency by 50% through exclusive features.",
-        "Collaborated cross-functionally, employing C# and API for seamless integration."
+        "Engineered a C# Microsoft Project add in, enhancing the Ribbon UI with 20+ productivity tools—bulk task generators, automated resource leveling, and custom report exporters—that cut manual scheduling time by 50%.",
+        "Migrated legacy VBA macros into C#, reverse engineered core workflows, and authored comprehensive technical documentation, transforming unstructured code comments into a structured developer guide and end user manual."
       ]
     }
   ], 
